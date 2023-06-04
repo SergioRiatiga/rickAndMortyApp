@@ -24,7 +24,7 @@ function App() {
   
   return (
     <div className='app'>
-      <img className='app__img' src="../public/top img.jpg" alt="Rick and Morty image" />
+      <img className='app__img' src="../top img.jpg" alt="Rick and Morty image" />
       <section className='app__content'>
         <FormSearch
           setIdLocation={setIdLocation}
