@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.form__input{
+  padding: 0.5em;
+  border-radius: 0.5em 0 0 0.5em;
+}
+.form__btn{
+  background-color: #71A821;
+  padding: 0.5em 1.5em;
+  border-radius: 0 0.5em 0.5em 0;
+  color: #fff;
+  font-weight:500;
+  cursor: pointer;
+  transition: backgrounColor 0.5s;
+}
+.form__btn:hover{
+  background-color: #938686;
+}
