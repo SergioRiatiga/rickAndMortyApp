@@ -30,7 +30,7 @@ function App() {
           setIdLocation={setIdLocation}
         />
         {
-          hasError? <h2>❌ Hey! you must provide an id form 1 to 126. 🥺 </h2> : (
+          hasError? <h2>❌ Hey! you must provide an id from 1 to 126. 🥺 </h2> : (
             <>
               <LocationInfo
                 location={location}

@@ -38,6 +38,12 @@ a {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+  margin: 1em;
+  color: #fff;
+}
+
 .app__img {
   width: 100%;
 }
